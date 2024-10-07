@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "glamm"
+version = "0.1.0"
+description = ""
+authors = ["xuejunzhang2002"]
+readme = "README.md"
+packages = [
+    {include = "glamm"}
+]
+
+[tool.poetry.dependencies]
+python = "~3.10"
+transformers = "4.40.0"
+torch = "2.1.2"
+accelerate = "0.23.0"
+bpy = "4.0.0"
+huggingface-hub = "0.23.0"
+mmcv-full = "1.7.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

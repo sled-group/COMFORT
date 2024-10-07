@@ -1,0 +1,68 @@
+# Python
+__pycache__
+*.pyc
+*.egg-info
+dist
+
+# Log
+*.log
+*.log.*
+*.jsonl
+
+# Data
+!**/alpaca-data-conversation.json
+
+# Editor
+.idea
+*.swp
+
+# Other
+.DS_Store
+wandb
+output
+
+checkpoints
+ckpts*
+
+# .ipynb_checkpoints
+# *.ipynb
+
+# DevContainer
+!.devcontainer/*
+
+# Demo
+serve_images/
+
+# # Image files
+*.png
+workspace_plots/figures
+workspace_plots/selected_lineplot_err
+
+# zip files
+*.zip
+
+# results
+results/comfort_ball
+results/comfort_car_ref_facing_left
+results/comfort_car_ref_facing_right
+results/multilingual
+results/eval/old
+results/eval/temp
+results/eval/*.json
+results/eval/*.xlsx
+
+# plots
+plots/
+
+# data
+data/
+
+# editable package
+__editable__*/
+
+# build
+models/llava/build/
+
+# api keys
+api_keys.py
+cosine-multiling*.json
